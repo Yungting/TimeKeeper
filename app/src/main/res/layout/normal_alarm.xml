@@ -79,8 +79,8 @@
                 android:layout_gravity="center_vertical"
                 android:background="@drawable/normal_checkbox"
                 android:button="@null"
-                android:layout_marginRight="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="27dp"/>
 
@@ -91,6 +91,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/repeat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -124,18 +125,20 @@
                 android:layout_gravity="center_vertical"
                 android:background="@drawable/normal_checkbox"
                 android:button="@null"
-                android:layout_marginRight="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="27dp"/>
 
             <LinearLayout
+                android:id="@+id/rington"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -163,8 +166,9 @@
             android:layout_gravity="center"
             android:width="166dp"
             android:height="48dp"
-            android:background="@drawable/normal_creat_btn"
-            android:layout_marginTop="180dp"/>
+            android:background="@drawable/normal_btn"
+            android:layout_marginTop="180dp"
+            android:text="CREATE"/>
 
     </LinearLayout>
 

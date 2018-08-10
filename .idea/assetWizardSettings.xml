@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_menu_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_arrow_back_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,13 +28,10 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="height" value="33" />
-                            <entry key="outputName" value="ic_normal_check_btn" />
+                            <entry key="outputName" value="ic_arrow_back_black_24dp" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="D:\時間管家svg\一般鬧鐘\normal_check_btn.svg" />
-                            <entry key="width" value="33" />
+                            <entry key="sourceFile" value="D:\時間管家svg\一般鬧鐘\normal_music_titlebar.svg" />
                           </map>
                         </option>
                       </PersistentState>

@@ -4,4 +4,6 @@
     <string name="repeat_show">M T W Th F</string>
     <string name="rington">RINGTON</string>
     <string name="rington_show">May Day - first day</string>
+    <string name="music">MUSIC</string>
+    <string name="textview">TextView</string>
 </resources>
