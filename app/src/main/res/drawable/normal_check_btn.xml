@@ -20,4 +20,40 @@
       </gradient>
     </aapt:attr>
   </path>
+  <path
+      android:pathData="M7,12h19v12h-19z"
+      android:fillColor="#000000"
+      android:fillAlpha="0"/>
+  <path
+      android:pathData="M8.4142,15.5858L14.7782,21.9497"
+      android:strokeWidth="4"
+      android:fillColor="#00000000">
+    <aapt:attr name="android:strokeColor">
+      <gradient 
+          android:startY="20.182"
+          android:startX="10.182"
+          android:endY="20.8891"
+          android:endX="9.47487"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFA7A6CB"/>
+        <item android:offset="1" android:color="#FF8989BA"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M12.5858,22.5858L24.5858,10.5858"
+      android:strokeWidth="4"
+      android:fillColor="#00000000">
+    <aapt:attr name="android:strokeColor">
+      <gradient 
+          android:startY="18"
+          android:startX="20"
+          android:endY="18.7071"
+          android:endX="20.7071"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFA7A6CB"/>
+        <item android:offset="1" android:color="#FF8989BA"/>
+      </gradient>
+    </aapt:attr>
+  </path>
 </vector>

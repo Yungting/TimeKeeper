@@ -30,11 +30,11 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="height" value="56" />
-                            <entry key="outputName" value="ic_normal_creat_btn" />
+                            <entry key="height" value="33" />
+                            <entry key="outputName" value="ic_normal_check_btn" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="D:\時間管家svg\一般鬧鐘\normal_creat_btn.svg" />
-                            <entry key="width" value="174" />
+                            <entry key="sourceFile" value="D:\時間管家svg\一般鬧鐘\normal_check_btn.svg" />
+                            <entry key="width" value="33" />
                           </map>
                         </option>
                       </PersistentState>

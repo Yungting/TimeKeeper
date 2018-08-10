@@ -72,12 +72,13 @@
         android:orientation="horizontal"
         android:layout_marginTop="100dp"    >
 
-            <Button
+            <CheckBox
                 android:id="@+id/repeat_checkbox"
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_gravity="center_vertical"
-                android:background="@drawable/normal_check_btn"
+                android:background="@drawable/normal_checkbox"
+                android:button="@null"
                 android:layout_marginRight="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="27dp"
@@ -116,12 +117,13 @@
             android:layout_marginTop="50dp">
 
 
-            <Button
+            <CheckBox
                 android:id="@+id/rington_checkbox"
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_gravity="center_vertical"
-                android:background="@drawable/normal_check_btn"
+                android:background="@drawable/normal_checkbox"
+                android:button="@null"
                 android:layout_marginRight="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="27dp"
@@ -151,18 +153,19 @@
                     android:textSize="14sp"/>
             </LinearLayout>
 
+
         </LinearLayout>
 
         <Button
             android:id="@+id/creat_btn"
-            android:layout_width="166dp"
-            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="160dp"
-            android:background="@drawable/normal_creat_btn"/>
-
+            android:width="166dp"
+            android:height="48dp"
+            android:background="@drawable/normal_creat_btn"
+            android:layout_marginTop="180dp"/>
 
     </LinearLayout>
-
 
 </android.support.constraint.ConstraintLayout>
