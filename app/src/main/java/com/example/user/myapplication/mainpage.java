@@ -54,6 +54,14 @@ public class mainpage extends Activity{
                 startActivity(intent1);
             }
         });
+
+        ai_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(mainpage.this, ai_alarm.class);
+                startActivity(intent1);
+            }
+        });
     }
 
     //跳出選單

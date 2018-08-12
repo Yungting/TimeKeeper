@@ -6,7 +6,6 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".normal_alarm">
@@ -19,7 +18,7 @@
         <View
             android:layout_width="4dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/normal_line"/>
+            android:background="@drawable/ai_line"/>
 
         <View
             android:layout_width="300dp"
@@ -38,7 +37,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="161dp"
-        android:background="@drawable/normal_title_bar"
+        android:background="@drawable/ai_title_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,57 +63,56 @@
             android:textAlignment="center"
             android:textSize="36sp"/>
 
-
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:orientation="horizontal"
-        android:layout_marginTop="100dp"    >
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="90dp"    >
 
             <CheckBox
                 android:id="@+id/repeat_checkbox"
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_gravity="center_vertical"
-                android:background="@drawable/normal_checkbox"
+                android:background="@drawable/ai_checkbox"
                 android:button="@null"
                 android:layout_marginRight="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="27dp"
                 android:layout_marginLeft="27dp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/repeat"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/repeat"
-                android:textSize="18sp"/>
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/repeat_show"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/repeat_show"
-                android:textSize="14sp"
-                android:layout_marginLeft="55dp"
-                android:layout_marginStart="55dp"/>
+                <TextView
+                    android:id="@+id/repeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/repeat"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/repeat_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/repeat_show"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginStart="55dp"/>
+            </LinearLayout>
+
         </LinearLayout>
-
-    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:orientation="horizontal"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="38dp">
 
 
             <CheckBox
@@ -122,7 +120,7 @@
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_gravity="center_vertical"
-                android:background="@drawable/normal_checkbox"
+                android:background="@drawable/ai_checkbox"
                 android:button="@null"
                 android:layout_marginRight="20dp"
                 android:layout_marginEnd="20dp"
@@ -137,7 +135,6 @@
                 android:orientation="vertical">
 
                 <TextView
-
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -158,6 +155,63 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="38dp">
+
+
+            <CheckBox
+                android:id="@+id/ai_manage_checkbox"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ai_checkbox"
+                android:button="@null"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"/>
+
+            <TextView
+                android:id="@+id/ai_manage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="AI MANAGE"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="38dp">
+
+            <CheckBox
+                android:id="@+id/group_checkbox"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ai_checkbox"
+                android:button="@null"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"/>
+
+            <TextView
+                android:id="@+id/group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="GROUP"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
         <Button
             android:id="@+id/creat_btn"
             android:layout_width="wrap_content"
@@ -165,8 +219,8 @@
             android:layout_gravity="center"
             android:width="166dp"
             android:height="48dp"
-            android:background="@drawable/normal_btn"
-            android:layout_marginTop="180dp"
+            android:background="@drawable/ai_btn"
+            android:layout_marginTop="47dp"
             android:text="CREATE"/>
 
     </LinearLayout>

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".normal_alarm" />
-        <activity android:name=".normal_alarm_music"></activity>
+        <activity android:name=".normal_alarm_music" />
+        <activity android:name=".ai_alarm"></activity>
     </application>
 
 </manifest>
