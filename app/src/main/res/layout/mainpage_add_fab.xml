@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/normal_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="70dp"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/normal_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_normal_alarm"
+            app:fabSize="mini" />
+
+        <TextView
+            android:id="@+id/normal_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/normal"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ai_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="90dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/ai_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ai_alarm"
+            android:textColor="@color/text"
+            android:textSize="12sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/ai_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_normal_alarm"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/counter_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="70dp"
+        android:visibility="gone">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/counter_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_normal_alarm"
+            app:fabSize="mini" />
+
+        <TextView
+            android:id="@+id/counter_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/counter"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/text" />
+    </LinearLayout>
+
+</FrameLayout>

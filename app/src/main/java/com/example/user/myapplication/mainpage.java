@@ -2,32 +2,52 @@ package com.example.user.myapplication;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 
 public class mainpage extends Activity{
 
-//    Button ai_alarm_btn;
-//    Button normal_btn;
-//    Button counter_btn;
-    Button btn;
+    FloatingActionButton add_btn, normal_btn, ai_btn, counter_btn;
+    LinearLayout normal_layout, ai_layout, counter_layout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.mainpage);
 
-//        ai_alarm_btn = findViewById(R.id.ai_alarm_btn);
-//        normal_btn = findViewById(R.id.normal_alarm_btn);
-//        counter_btn = findViewById(R.id.counter_btn);
-        btn = findViewById(R.id.button);
+        add_btn = findViewById(R.id.add_btn);
+        ai_btn = findViewById(R.id.ai_btn);
+        ai_layout = findViewById(R.id.ai_layout);
+        normal_btn = findViewById(R.id.normal_btn);
+        normal_layout = findViewById(R.id.normal_layout);
+        counter_btn = findViewById(R.id.counter_btn);
+        counter_layout = findViewById(R.id.counter_layout);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        //設定增加的子按鈕顯示或隱藏
+        add_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(normal_layout.getVisibility() == View.VISIBLE && ai_layout.getVisibility() == View.VISIBLE && counter_layout.getVisibility() == View.VISIBLE){
+                    normal_layout.setVisibility(View.GONE);
+                    ai_layout.setVisibility(View.GONE);
+                    counter_layout.setVisibility(View.GONE);
+                }else{
+                    normal_layout.setVisibility(View.VISIBLE);
+                    ai_layout.setVisibility(View.VISIBLE);
+                    counter_layout.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        normal_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent1 = new Intent(mainpage.this, normal_alarm.class);
